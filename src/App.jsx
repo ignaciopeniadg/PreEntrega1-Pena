@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <Navbar />
       </header>
-      <div>
+      <div className='PuestoActual'>
         <CardExperiencia
         empresa="Oliver, U-Studio"
         fecha="May 2022 - Actualidad"

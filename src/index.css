@@ -1,5 +1,24 @@
 body {
   margin: 0;
-  font-family: Montserrat;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color:  rgb(43, 43, 43);;
+}
+.nav__surface {
+  background-color: rgb(43, 43, 43);
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -3,7 +3,8 @@ import "../index.css"
 
 function Navbar() {
     return (
-        <nav className="nav">
+        <nav className="nav__surface">
+            <div className="nav">
             <a href="" className="brand"><img className="brand__logo" src="../img/navbar-logo.png"></img></a>
             <ul className="nav__menu">
                 <li className="nav__item">Home</li>
@@ -19,6 +20,7 @@ function Navbar() {
                 <div className="line1"></div>
                 <div className="line1"></div>
                 <div className="line1"></div>
+            </div>
             </div>
         </nav>
     )
