@@ -1,3 +1,6 @@
+import React from "react";
+import "../index.css"
+
 const CardExperiencia = (props) => {
     return (
             <div className="card__experiencia">
