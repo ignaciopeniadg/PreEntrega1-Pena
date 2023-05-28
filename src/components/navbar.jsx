@@ -8,15 +8,20 @@ function Navbar() {
             <a href="" className="brand">
             <img className="brand__logo" src= {logo}></img></a>
             <ul className="nav__menu">
-                <li className="nav__item">Home</li>
-                <li className="nav__item">Sobre mí</li>
-                <li className="nav__item">Experiencia</li>
-                <li className="nav__item">Estudios</li>
-                <li className="nav__item">Skills</li>
-                <li className="nav__item">Portfolio</li>
-                <li className="nav__item">Servicios</li>
-                <li className="nav__item">Contacto</li>
+                <li className="nav__item"><a href="" className="nav__link">Home</a></li>
+                <li className="nav__item"><a href="" className="nav__link">Sobre mí</a></li>
+                <li className="nav__item"><a href="" className="nav__link">Experiencia</a></li>
+                <li className="nav__item"><a href="" className="nav__link">Estudios</a></li>
+                <li className="nav__item"><a href="" className="nav__link">Skills</a></li>
+                <li className="nav__item"><a href="" className="nav__link">Portfolio</a></li>
+                <li className="nav__item"><a href="" className="nav__link">Servicios</a></li>
+                <li className="nav__item"><a href="" className="nav__link">Contacto</a></li>
             </ul>
+            <div>
+                <div className="line1"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
+            </div>
         </nav>
     )
 }
