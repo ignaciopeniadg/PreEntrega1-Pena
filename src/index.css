@@ -12,6 +12,8 @@ html {
   align-items: center;
   justify-content: center;
   color: white;
+      text-decoration: none;
+    list-style: none;
 }
 .App {
   display: flex;
@@ -20,24 +22,11 @@ html {
   align-items: center;
 }
 .App-header {
+  width: 100%;
   margin: 3rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
-}
-.nav { 
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-.brand__logo {
-  width: 5rem;
-}
-.nav__menu {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
 }
