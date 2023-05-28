@@ -5,8 +5,7 @@ import logo from '../img/navbar-logo.png'
 function Navbar() {
     return (
         <nav className="nav">
-            <a href="" className="brand">
-            <img className="brand__logo" src= {logo}></img></a>
+            <a href="" className="brand"><img className="brand__logo" src= {logo}></img></a>
             <ul className="nav__menu">
                 <li className="nav__item"><a href="" className="nav__link">Home</a></li>
                 <li className="nav__item"><a href="" className="nav__link">Sobre mí</a></li>

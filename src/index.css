@@ -13,7 +13,14 @@ html {
   justify-content: center;
   color: white;
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .App-header {
+  margin: 3rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,5 +39,5 @@ html {
 .nav__menu {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
 }

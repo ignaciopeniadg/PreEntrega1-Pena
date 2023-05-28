@@ -6,7 +6,7 @@ import Button from "./components/common/button.jsx";
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <header className="App-header">
         <Navbar />
       </header>
